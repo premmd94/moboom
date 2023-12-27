@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext, useMemo } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { ApiCall, ProductContext } from '../../services/Api';
 import Loader from '../../components/Loader';
 import './style.scss'

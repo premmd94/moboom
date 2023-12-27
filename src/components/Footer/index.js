@@ -100,7 +100,7 @@ const Footer = () => {
                 <div className='col-md-5'>
                     <h4 className='mb-2 f-18 fw-600'>We Accept </h4>
                     <div className='img'>
-                        <img className='img-fluid' src={paymentImg} />
+                        <img className='img-fluid' alt='payment' src={paymentImg} />
                     </div>
                 </div>
             </div>
