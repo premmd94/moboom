@@ -1,0 +1,48 @@
+$theme-colors: (
+    "primary": #1f2937,
+    "danger": red,
+    "text1": #818181,
+    "text2": #6b7280,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    overflow-y: scroll;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-400 {
+    font-weight: 400;
+}

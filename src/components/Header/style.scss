@@ -1,0 +1,51 @@
+header {
+    background-color: transparent;
+
+    .navbar-toggler {
+        border: 0px;
+        border-radius: 0;
+        box-shadow: none !important;
+    }
+
+    a.navbar-brand {
+        color: #333333;
+        font-weight: 900;
+        font-size: 32px;
+
+        @media (max-width: 700px) {
+            color: #333333;
+            display: block;
+            width: calc(100% - 90px);
+            text-align: center;
+        }
+
+        span {
+            color: #ff0ba3;
+        }
+    }
+
+    .navbar-collapse {
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+
+            li {
+                &:first-child {
+                    width: 60%;
+                    margin-right: 10px;
+                }
+
+                a {
+                    font-weight: 400;
+                    padding-left: 10px !important;
+                    padding-right: 10px !important;
+
+                    &.active {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

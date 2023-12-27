@@ -1,0 +1,90 @@
+.home-section {
+    padding: 0 0 80px 0;
+
+    @media(max-width:700px) {
+        padding: 0 0 40px 0;
+    }
+
+    .order-change {
+        @media(max-width:700px) {
+            order: 2;
+        }
+    }
+
+    .color-box {
+        padding: 20px 15px;
+        border-radius: 16px;
+        background: linear-gradient(45deg, #3b3b3b, #e2615b);
+
+        p {
+            color: rgb(255 255 255 / 50%);
+            ;
+        }
+    }
+
+    .content-box {
+        border: 1px solid #e5e7eb;
+        border-radius: 16px;
+        height: 100%;
+
+        .img {
+            background-size: cover;
+            background-position: center center;
+            border-radius: 16px 16px 0 0;
+            position: relative;
+            aspect-ratio: 1/1.1;
+
+            .heart {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                height: 40px;
+                width: 40px;
+                background: #a6a5a9;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    color: #fff;
+                }
+            }
+        }
+
+        .content {
+            padding: 10px;
+
+            h4 {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+            }
+
+            p {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+
+    .pagination {
+        justify-content: flex-end !important;
+
+        .page-link {
+            border-radius: 0px !important;
+            color: var(--bs-primary) !important;
+        }
+
+        .active {
+            .page-link {
+                border-radius: 0px !important;
+                color: #ffffff !important;
+                background-color: var(--bs-primary) !important;
+            }
+        }
+
+    }
+}
